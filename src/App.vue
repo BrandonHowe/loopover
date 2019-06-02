@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="main-container">
+    <div class="main-container" :style="{ background-color: #314253 }">
       <div class="main-wrapper" :style="{ margin: margin + 'px' }">
         <main>
           <div v-if="!desktopMode" style="height: 0; display: flex; align-items: flex-end; transform: translateY(-6px);" :style="{ marginTop: '48px' }">
